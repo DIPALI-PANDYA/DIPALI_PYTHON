@@ -17,3 +17,10 @@ if n>0:
 else:
     print("No. is negative")
 """
+#WAP to find maximum number
+n1= int(input(" Enter the value= "))
+n2= int(input(" Enter the value= "))
+if(n1>n2):
+    print("N1 is maximum")
+else:
+    print("N2 is maximum")
