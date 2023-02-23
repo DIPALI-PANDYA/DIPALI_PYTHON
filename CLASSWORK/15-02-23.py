@@ -40,7 +40,7 @@ else:
     else:
         print(n3,"is greater")
 """
-
+#WAP to get student's percentage using ladder if else
 roll= int(input("Enter your Roll No.: "))
 name= input("Enter your name: ")
 p= int(input("Enter Physics marks"))
@@ -48,7 +48,7 @@ m= int(input("Enter Maths marks"))
 c= int(input("Enter Chemistry marks"))
 total= (p+m+c)
 per= (total/3)
-
+print()
 print("Roll no.: ",roll)
 print("Name: ",name)
 print("Total: ",total)
@@ -57,7 +57,7 @@ print("Percentage: ",per)
 
 if per>=75:
       print("Class is Distinction")
- elif per>=65:
+elif per>=65:
         print("First Class")
 elif per>=55:
         print("Second Class")
